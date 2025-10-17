@@ -1,5 +1,6 @@
 📝 ToDoList – Python OOP (In-Memory)
 In this project i have developed a Command-Line Interface (CLI) project and task management application using Object-Oriented Programming (OOP) principles in Python.
+
 *All data (tasks and projects) are currently stored In-Memory and will be lost upon program termination.*
 
 This project was developed as part of Phase 1 of the Software Engineering course at Amirkabir University of Technology (AUT).
