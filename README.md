@@ -85,6 +85,10 @@ python main.py
 | File/Folder | Purpose |
 | :---: | :--- |
 | main.py | The main entry point and Command-Line Interface (CLI) implementation. |
-| services/todo_manager.py | Service Layer: Contains the core business logic, validation rules, and data state management. |
-| models/project.py | Data Model: Defines the Project class, which holds a list of Task objects. |
-| models/task.py | Data Model: Defines the fundamental Task class. |
+| services/todo_manager.py | Service Layer: Contains the core business logic, including project and task management, validation, and in-memory data handling. |
+| services/init.py | Marks the services directory as a Python package. |
+| models/project.py | Data Model: Defines the Project class, which represents a project containing multiple Task objects. |
+| models/task.py | Data Model: Defines the Task class, which represents an individual task with title, description, status, and deadline. |
+| models/init.py | Marks the models directory as a Python package. |
+| .env | Environment variables for configuration (e.g., MAX_NUMBER_OF_PROJECT, MAX_NUMBER_OF_TASK). Not committed to GitHub. |
+| .gitignore | Specifies files and directories to be ignored by Git (e.g., .env, .venv, __pycache__/). |
