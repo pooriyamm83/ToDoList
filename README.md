@@ -32,22 +32,27 @@ I personally used a virtual environment and recommend to use virtual environment
 
 ```bash
 python -m venv venv
-
+```
 # Activate on Windows:
+```
 .\venv\Scripts\activate
+```
 # Activate on Linux/macOS:
+```
 source venv/bin/activate
+```
 
 2. Install Dependencies
 Install all required libraries using pip. You need to either have a requirements.txt file or install the dependencies manually (at minimum, python-dotenv is required):
 
-Bash
+```Bash
 
 # Assuming you have a requirements.txt file:
 pip install -r requirements.txt
 
 # OR, install required library manually:
 # pip install python-dotenv
+```
 
 3. Set Up Configuration
 This part is very important make sure to create a file named .env in the project root to define application limits:
@@ -55,9 +60,10 @@ This part is very important make sure to create a file named .env in the project
 Code snippet
 
 # .env file content
+```
 MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
-
+```
 4. Run the Application
 Execute the main file to start the CLI:
 
