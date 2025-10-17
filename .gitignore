@@ -1,0 +1,15 @@
+# Virtual environment (Your venv folder)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment file (Contains secrets)
+.env
+
+# IDE files (PyCharm's configuration)
+.idea/
+
+# Build artifacts and distributions
+dist/
+build/
