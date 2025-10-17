@@ -29,7 +29,7 @@ Follow these steps to set up and run the application.
 
 1. Create a Virtual Environment:
 
-I personally used a virtual environment and recommend to use virtual environment to isolate project dependencies:
+  I personally used a virtual environment and recommend to use virtual environment to isolate project dependencies:
 
 ```bash
 python -m venv venv
@@ -45,7 +45,7 @@ source venv/bin/activate
 
 2. Install Dependencies:
 
-Install all required libraries using pip. You need to either have a requirements.txt file or install the dependencies manually (at minimum, python-dotenv is required):
+  Install all required libraries using pip. You need to either have a requirements.txt file or install the dependencies manually (at minimum, python-dotenv is required):
 
 ```Bash
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 3. Set Up Configuration:
 
-This part is very important make sure to create a file named .env in the project root to define application limits:
+  This part is very important make sure to create a file named .env in the project root to define application limits:
 
 
 # .env file content
@@ -66,8 +66,9 @@ This part is very important make sure to create a file named .env in the project
 MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
 ```
-4. Run the Application
-Execute the main file to start the CLI:
+4. Run the Application:
+
+  Execute the main file to start the CLI:
 
 ```Bash
 python main.py
@@ -75,14 +76,15 @@ python main.py
 
 5. CLI Commands:
 
-Upon execution, a demo project is automatically created. To view the list of available commands, type help:
+  Upon execution, a demo project is automatically created. To view the list of available commands, type help:
 
 >>> help
 
-Project Structure
-File/Folder	Purpose
-main.py	The main entry point and Command-Line Interface (CLI) implementation.
-services/todo_manager.py	Service Layer: Contains the core business logic, validation rules, and data state management.
-models/project.py	Data Model: Defines the Project class, which holds a list of Task objects.
-models/task.py	Data Model: Defines the fundamental Task class.
-.gitignore	Manages files ignored by Git (e.g., venv/, .env, and IDE settings).
+
+## Project Structure
+| File/Folder | Purpose |
+| :---: | :--- |
+| main.py | The main entry point and Command-Line Interface (CLI) implementation. |
+| services/todo_manager.py | Service Layer: Contains the core business logic, validation rules, and data state management. |
+| models/project.py | Data Model: Defines the Project class, which holds a list of Task objects. |
+| models/task.py | Data Model: Defines the fundamental Task class. |
