@@ -1,5 +1,4 @@
-📝
-# ToDoList – Python OOP (In-Memory)
+# ToDoList – Python OOP (In-Memory)📝
 
 In this project i have developed a Command-Line Interface (CLI) project and task management application using Object-Oriented Programming (OOP) principles in Python.
 
@@ -7,8 +6,7 @@ In this project i have developed a Command-Line Interface (CLI) project and task
 
 This project was developed as part of Phase 1 of the Software Engineering course at Amirkabir University of Technology (AUT).
 
-🚀
-## Key Features
+## Key Features🚀
 
 | Capability | Description |
 | :---: | :--- |
@@ -17,14 +15,16 @@ This project was developed as part of Phase 1 of the Software Engineering course
 | Task Status | Tasks can be updated to one of three statuses: todo, doing, or done. |
 | Viewing Data | View the list of all projects and the tasks associated with each project. |
 
-🛠️ Tech Stack & Prerequisites
+
+# Tech Stack & Prerequisites🛠️
 Language: Python 3.11 or higher.
 
 Dependencies: Managed via pip.
 
 Configuration: Uses the python-dotenv library to read application limits from the .env file.
 
-💡 Installation and Usage
+
+# Installation and Usage💡
 Follow these steps to set up and run the application.
 
 1. Create a Virtual Environment
