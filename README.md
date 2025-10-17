@@ -27,7 +27,8 @@ Configuration: Uses the python-dotenv library to read application limits from th
 # Installation and Usage💡
 Follow these steps to set up and run the application.
 
-1. Create a Virtual Environment
+1. Create a Virtual Environment:
+
 I personally used a virtual environment and recommend to use virtual environment to isolate project dependencies:
 
 ```bash
@@ -42,7 +43,8 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-2. Install Dependencies
+2. Install Dependencies:
+
 Install all required libraries using pip. You need to either have a requirements.txt file or install the dependencies manually (at minimum, python-dotenv is required):
 
 ```Bash
@@ -54,10 +56,10 @@ pip install -r requirements.txt
 # pip install python-dotenv
 ```
 
-3. Set Up Configuration
+3. Set Up Configuration:
+
 This part is very important make sure to create a file named .env in the project root to define application limits:
 
-Code snippet
 
 # .env file content
 ```
@@ -67,11 +69,12 @@ MAX_NUMBER_OF_TASK=50
 4. Run the Application
 Execute the main file to start the CLI:
 
-Bash
-
+```Bash
 python main.py
+```
 
-5. CLI Commands
+5. CLI Commands:
+
 Upon execution, a demo project is automatically created. To view the list of available commands, type help:
 
 >>> help
