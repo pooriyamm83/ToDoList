@@ -1,16 +1,21 @@
-📝 # ToDoList – Python OOP (In-Memory)
+📝
+# ToDoList – Python OOP (In-Memory)
+
 In this project i have developed a Command-Line Interface (CLI) project and task management application using Object-Oriented Programming (OOP) principles in Python.
 
 *All data (tasks and projects) are currently stored In-Memory and will be lost upon program termination.*
 
 This project was developed as part of Phase 1 of the Software Engineering course at Amirkabir University of Technology (AUT).
 
-🚀 Key Features
-Capability	Description
-Project Management	Create, edit, and delete projects. Deleting a project automatically removes all its associated tasks (Cascade Delete).
-Task Management	Add, edit, and delete tasks within any project.
-Task Status	Tasks can be updated to one of three statuses: todo, doing, or done.
-Viewing Data	View the list of all projects and the tasks associated with each project.
+🚀
+## Key Features
+
+| Capability | Description |
+| :---: | :--- |
+| Project Management | Create, edit, and delete projects. Deleting a project automatically removes all its associated tasks (Cascade Delete). |
+| Task Management | Add, edit, and delete tasks within any project. |
+| Task Status | Tasks can be updated to one of three statuses: todo, doing, or done. |
+| Viewing Data | View the list of all projects and the tasks associated with each project. |
 
 🛠️ Tech Stack & Prerequisites
 Language: Python 3.11 or higher.
