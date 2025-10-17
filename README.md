@@ -30,9 +30,9 @@ Follow these steps to set up and run the application.
 1. Create a Virtual Environment
 I personally used a virtual environment and recommend to use virtual environment to isolate project dependencies:
 
-Bash
-
+```bash
 python -m venv venv
+
 # Activate on Windows:
 .\venv\Scripts\activate
 # Activate on Linux/macOS:
