@@ -40,14 +40,23 @@
 ## ساختار پروژه
 todo_list_app/
 ├── todo_list_app/              # پکیج اصلی
+
 │   ├── models/                 # Task و Project
+
 │   ├── repository.py          # In-Memory Repository
+
 │   ├── cli.py                  # رابط خط فرمان
+
 │   ├── config.py               # بارگذاری .env
+
 │   └── main.py
+
 ├── .env                        # تنظیمات محلی (در .gitignore)
+
 ├── .env.example                # نمونه تنظیمات
+
 ├── pyproject.toml
+
 └── README.md
 
 ---
@@ -84,3 +93,4 @@ exit                                         → خروج
 تنظیمات (.env)
 MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
+
