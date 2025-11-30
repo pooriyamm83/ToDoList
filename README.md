@@ -93,24 +93,3 @@ exit                                         → خروج
 تنظیمات (.env)
 MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
-
-
-**# Phase 2  (Persistency)
-**- PostgreSQL با Docker
-- SQLAlchemy ORM با روابط One-to-Many و Cascade Delete
-- Repository Pattern (جداسازی کامل منطق دیتابیس)
-- Alembic برای migrations
-- Command خودکار: `auto_close_overdue.py` با Schedule (هر روز تسک‌های overdue را به 'done' تغییر می‌دهد)
-
-## اجرا Command خودکار
-
-شما می‌توانید برنامه اصلی CLI را اجرا کنید و از دستور `overdue` برای اجرای دستی Command خودکار استفاده کنید، یا آن را به صورت مداوم اجرا کنید:
-
-```bash
-# اجرای دستی Command خودکار (برای تست سریع)
-poetry run python -m todo_list_app  # سپس در CLI دستور 'overdue' را بزنید
-
-# اجرای scheduler مداوم (بررسی هر دقیقه)
-poetry run python -c "from todo_list_app.auto_close_overdue import run_scheduler; run_scheduler()"
-
-
