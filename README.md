@@ -95,7 +95,7 @@ MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
 
 
-## ویژگی‌های فاز ۲ (Persistency)
+# Phase 2 ۲ (Persistency)
 - PostgreSQL با Docker
 - SQLAlchemy ORM با روابط One-to-Many و Cascade Delete
 - Repository Pattern (جداسازی کامل منطق دیتابیس)
@@ -112,4 +112,5 @@ poetry run python -m todo_list_app  # سپس در CLI دستور 'overdue' را 
 
 # اجرای scheduler مداوم (بررسی هر دقیقه)
 poetry run python -c "from todo_list_app.auto_close_overdue import run_scheduler; run_scheduler()"
+
 
