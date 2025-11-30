@@ -1,7 +1,7 @@
 # To Do List Project - Phase 1 (In-Memory)
 
 **دانشگاه صنعتی امیرکبیر - درس مهندسی نرم‌افزار - پاییز ۱۴۰۴**  
-**تهیه‌کننده:** پوریا مزجب
+**تهیه‌کننده:** پوریا مرجب
 **ریپازیتوری:** https://github.com/pooriyamm83/ToDoList
 
 ---
@@ -112,4 +112,5 @@ poetry run python -m todo_list_app  # سپس در CLI دستور 'overdue' را 
 
 # اجرای scheduler مداوم (بررسی هر دقیقه)
 poetry run python -c "from todo_list_app.auto_close_overdue import run_scheduler; run_scheduler()"
+
 
