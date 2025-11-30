@@ -95,8 +95,8 @@ MAX_NUMBER_OF_PROJECT=10
 MAX_NUMBER_OF_TASK=50
 
 
-# Phase 2 ۲ (Persistency)
-- PostgreSQL با Docker
+**# Phase 2  (Persistency)
+**- PostgreSQL با Docker
 - SQLAlchemy ORM با روابط One-to-Many و Cascade Delete
 - Repository Pattern (جداسازی کامل منطق دیتابیس)
 - Alembic برای migrations
