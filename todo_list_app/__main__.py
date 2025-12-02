@@ -1,8 +1,5 @@
-from .cli import ToDoListCLI
-
-def main():
-    cli = ToDoListCLI()
-    cli.run()
+from .cli.console import ConsoleCLI
 
 if __name__ == "__main__":
-    main()
+    cli = ConsoleCLI()
+    cli.run()
