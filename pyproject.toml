@@ -1,19 +1,13 @@
-[project]
-name = "todo-list-app"
-version = "0.1.0"
-description = ""
-authors = [
-    {name = "pooriyamm83",email = "mmpooriya83@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "python-dotenv (>=1.2.1,<2.0.0)"
-]
-
 [tool.poetry]
-packages = [{include = "todo_list_app", from = "src"}]
+name = "todo_list_app"
+version = "0.1.0"
+description = "ToDoList Phase 1 - In-Memory"
+authors = ["Pooriya <pooriyamm83@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
