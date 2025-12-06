@@ -1,4 +1,5 @@
-# app/services/task_service.py
+from todo_list_app.models.task import Task, Status
+from typing import List, Optional
 from sqlalchemy.orm import Session
 from todo_list_app.repositories.task_repository import TaskRepository
 from todo_list_app.exceptions.service_exceptions import ValidationError

@@ -1,4 +1,4 @@
-# app/repositories/project_repository.py
+from typing import Optional, List
 from sqlalchemy.orm import Session
 from todo_list_app.models.project import Project
 from todo_list_app.config import MAX_NUMBER_OF_PROJECT

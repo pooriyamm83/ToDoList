@@ -2,6 +2,7 @@ from sqlalchemy.orm import Session
 from todo_list_app.models.task import Task, Status
 from todo_list_app.config import MAX_NUMBER_OF_TASK
 from todo_list_app.exceptions.repository_exceptions import LimitExceededError, NotFoundError
+from typing import List, Optional
 
 class TaskRepository:
     def __init__(self, db: Session):
